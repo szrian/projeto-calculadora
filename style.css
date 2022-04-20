@@ -25,7 +25,7 @@ h1 {
 .calculadora {
     position: absolute;
     font-size: 40px;
-    background-color: rgb(197, 180, 180);
+    background-color: #c5f7f0;
     padding: 15px;
     border-radius: 10px;
     top: 50%;
@@ -45,16 +45,17 @@ h1 {
 }
 
 .botao:hover {
-    background-color: rgb(226, 239, 250);
+    background-color: #58ccc4;
     border: none;
 }
 
-.display {
+#display {
     text-align: right;
     font-family: 'Calculator';
     font-size: 40px;
     background-color: white;
     width: 193px;
+    height: 43px;
     padding: 2px 10px 5px 10px;
     border-radius: 5px;
 }
